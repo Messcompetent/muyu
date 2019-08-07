@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--<com.tencent.smtt.sdk.WebView-->
+    <!--android:id="@+id/tsswebzhu"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+    <WebView
+        android:id="@+id/tsswebzhu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ProgressBar
+        android:id="@+id/XvideoPB"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:background="#02fff0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/xvideofab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="@android:color/holo_blue_bright"
+        app:srcCompat="@drawable/ic_menu_slideshow" />
+</android.support.design.widget.CoordinatorLayout>

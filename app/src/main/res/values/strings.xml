@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">木娱</string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_mini_qb">MiniQBActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tag"> (X5内核功能演示)</string>
+    <string name="tip">普通接入直接参考“APPApplication” “BrowserActivity” “X5WebView”中相关实现即可</string>
+    <string name="功能介绍">此软件功能上主题为两项，第一项看小说在打开软件后第一眼就会不看到了，视频有两部分，一部分在小说那一页右上角的三“点”，进入大型视频站，在那些网站的页面中选定要播放的剧集、到播放页面以后（一定要在播放的页面），点击右下角的圆形按钮，更改播放的方式，就可以正常观看，不过功能有待完善，播放不稳定，如果播放进度条变成灰色，就需要返回、重新播放，播放方式尽量选择靠前的几个，相比较于下边的要稳定一些，但此功能尚不稳定，使用不畅请谅解，待以后完善</string>
+
+    <string-array name="index_titles">
+        <item>浏览器demo</item>
+        <item>全屏播放</item>
+        <item>文件选择器</item>
+    </string-array>
+</resources>

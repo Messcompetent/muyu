@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.xr.muyudemo.Classshou"
+    tools:showIn="@layout/app_bar_classshou">
+
+
+    <LinearLayout
+        android:id="@+id/LLsosuo"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etsosuo"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/busosuo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="@drawable/sosuobutton"
+            android:text="搜一下" />
+    </LinearLayout>
+
+<!--这里会显示在layoutshou.xml里，同样位置-->
+    <LinearLayout
+        android:id="@+id/shoubottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:background="@android:color/holo_blue_dark">
+
+        <Button
+            android:id="@+id/sousuo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.2"
+            android:background="@android:color/holo_blue_dark"
+            android:text="搜索" />
+
+        <Button
+            android:id="@+id/zhuye"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.2"
+            android:background="@android:color/holo_blue_dark"
+            android:text="主页" />
+
+        <Button
+            android:id="@+id/qianjin"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.2"
+            android:background="@android:color/holo_blue_dark"
+            android:text="前进"
+            android:textColorLink="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/shezhi"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.2"
+            android:background="@android:color/holo_blue_dark"
+            android:text="设置" />
+    </LinearLayout>
+
+</RelativeLayout>
